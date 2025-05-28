@@ -1,11 +1,11 @@
 {
-    "name": "",
-    "short_name": "",
-    "description": "",
-    "start_url": "",
-    "display": "",
-    "background_color": "",
-    "theme_color": "",
+    "name": "Lab8_Starter",
+    "short_name": "Kalkin Kalkin",
+    "description": "A nice site for recipes",
+    "start_url": "https://kalkin413.github.io/Lab8_Starter/",
+    "display": "standalone",
+    "background_color": "#00ffaa",
+    "theme_color": "#22cc22",
     "icons": [
       {
         "src": "/assets/images/icons/icon-192x192.png",
