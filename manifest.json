@@ -4,7 +4,7 @@
     "description": "A nice site for recipes",
     "start_url": "https://kalkin413.github.io/Lab8_Starter/",
     "display": "standalone",
-    "background_color": "#00ffaa",
+    "background_color": "#22ccaa",
     "theme_color": "#22cc22",
     "icons": [
       {
