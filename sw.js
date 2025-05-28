@@ -47,7 +47,7 @@ self.addEventListener('fetch', function (event) {
   //            network response.
   caches.open(CACHE_NAME).then(function (cache) {
     return cache.match(event.request).then((cachedResponse) => {
-      return cachedResponse || fetch(event.request.url).then((fetchedResponse) => {
+      return cachedResponse || fetch(event.request).then((fetchedResponse) => {
         cache.put(event.request, fetchedResponse.clone());
         return fetchedResponse;
       });
